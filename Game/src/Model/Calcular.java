@@ -33,12 +33,12 @@ public class Calcular {
 			this.valor2 = rand.nextInt(1000); //0 - 999
 		}
 		else if(dificuldade == 4) {
-			//insano
+			//dificilimo 
 			this.valor1 = rand.nextInt(10000); //0 - 9999
 			this.valor2 = rand.nextInt(10000); //0 - 9999
 		}
 		else{
-			//impossivel
+			//insano
 			this.valor1 = rand.nextInt(100000); //0 - 99999
 			this.valor2 = rand.nextInt(100000); //0 - 99999
 		}
